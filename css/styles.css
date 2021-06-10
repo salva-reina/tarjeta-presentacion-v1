@@ -21,7 +21,7 @@ body {
 
 .contenedor .img img {
   width: 100%;
-  vertical-align: top;
+  /* vertical-align: top; */
 }
 
 .producto-info {
@@ -37,14 +37,14 @@ body {
 .producto-texto h1 {
   margin-left: 65px;
   padding-top: 5px;
-  font-size: 30px;
+  font-size: 34px;
   color: #474747;
   font-weight: 700;
 }
 
 .producto-texto h2 {
-  margin: -10px 0 20px 80px;
-  font-size: 18px;
+  margin: -20px 0 20px 80px;
+  font-size: 20px;
   color: #d2d2d2;
   font-weight: 500;
   text-transform: uppercase;
@@ -53,7 +53,7 @@ body {
 
 .producto-texto p {
   height: 100px;
-  margin: 30px 30px 20px 30px;
+  margin: 20px 30px 20px 30px;
   font-weight: 300;
   color: #8d8d8d;
   line-height: 1.6em;
@@ -66,7 +66,28 @@ p {
 }
 
 .precio-btn {
+  height: 30px;
+  margin-top: 10px;
   display: flex;
   justify-content: center;
-  align-items: center;
+}
+
+.precio-btn a {
+  height: 40px;
+  width: 130px;
+  align-self: center;
+  border-radius: 60px;
+  font-family: "Roboto", sans-serif;
+  letter-spacing: 0.1em;
+  text-transform: uppercase;
+  font-weight: 500;
+  color: #fff;
+  background: #6f8b9d;
+  text-decoration: none;
+  text-align: center;
+  line-height: 20px;
+}
+
+.precio-btn a:hover {
+  background: #00b1cc;
 }
